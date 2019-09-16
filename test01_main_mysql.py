@@ -39,31 +39,31 @@ class test(QMainWindow,mainW):
             query = 'CREATE UNIQUE INDEX IDX_STUDENT ON STUDENT(ID)'
             self.cur.execute(query)
 
-            query = 'INSERT INTO STUDENT VALUES (1,"이상봉",10)'
+            query = 'INSERT INTO STUDENT VALUES (1,"name1",10)'
             self.cur.execute(query)
 
-            query = 'INSERT INTO STUDENT VALUES (2,"이승준",10)'
+            query = 'INSERT INTO STUDENT VALUES (2,"name2",10)'
             self.cur.execute(query)
 
-            query = 'INSERT INTO STUDENT VALUES (3,"김준호",20)'
+            query = 'INSERT INTO STUDENT VALUES (3,"name3",20)'
             self.cur.execute(query)
 
-            query = 'INSERT INTO STUDENT VALUES (4,"박재은",20)'
+            query = 'INSERT INTO STUDENT VALUES (4,"name4",20)'
             self.cur.execute(query)
 
-            query = 'INSERT INTO STUDENT VALUES (5,"정혜원",30)'
+            query = 'INSERT INTO STUDENT VALUES (5,"name5",30)'
             self.cur.execute(query)
 
-            query = 'INSERT INTO STUDENT VALUES (6,"송주혜",30)'
+            query = 'INSERT INTO STUDENT VALUES (6,"name6",30)'
             self.cur.execute(query)
 
-            query = 'INSERT INTO STUDENT VALUES (7,"최현화",30)'
+            query = 'INSERT INTO STUDENT VALUES (7,"name7",30)'
             self.cur.execute(query)
 
-            query = 'INSERT INTO STUDENT VALUES (8,"정민재",60)'
+            query = 'INSERT INTO STUDENT VALUES (8,"name8",60)'
             self.cur.execute(query)
 
-            query = 'INSERT INTO STUDENT VALUES (9,"강유석",70)'
+            query = 'INSERT INTO STUDENT VALUES (9,"name9",70)'
             self.cur.execute(query)
 
             query = 'Create table DEPARTMENT (DEPTNO INT, DEPTNAME VARCHAR(40))'
